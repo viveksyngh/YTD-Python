@@ -1,7 +1,6 @@
 import os
 import time
-from pytube import YouTube
-import os
+from pytube3 import YouTube
 
 def download_video(video_url):
     y = YouTube()
